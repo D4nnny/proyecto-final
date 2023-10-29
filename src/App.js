@@ -7,7 +7,9 @@ import Proyectos from './ProyectoFinal/Proyectos';
 import foto1 from "./Imagenes/danny2.jpg"
 import fondo from "./Imagenes/pr.jpg"
 import foto2 from "./Imagenes/danny3.jpg"
-import foto3 from "./Imagenes/danny1.jpeg"
+import fondo2 from "./Imagenes/fondoparaSM.jpg"
+import foto3 from "./Imagenes/danny4.jpeg"
+
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 function App() {
   return (
@@ -60,11 +62,31 @@ function App() {
           </>
           }
           
-          titu2SM = ""
+          titu2SM = "FODA"
 
+          descripcion2SM ={
+            <>
+  
+            FORTALEZAS: Puntualidad, Responsabilidad, Disciplina, Aprendizaje, Competitividad
+            , Compañerismo
+            , Liderazgo
+            <br></br>
+            <br></br>
+            OPORTUNIDADES: Desarrollo de habilidades, Educación Continua, Crecimiento Profesional
+            <br></br>
+            <br></br>
+            DEBILIDADES: Falta de experiencia laboral, Perdeccionismo excesivo, Impaciente
+            <br></br>
+            <br></br>
+            AMENAZAS: Estrategias para manejar desafíos, Trabajo en equipo y colaboración, 
+            Estrategias para manejar desafíos
+            
+  
+          </>
+          }
           
-          
-          
+          fotoFondo2SM = {fondo2}
+          fotoPublicacionSM = {foto3}
           
           
           

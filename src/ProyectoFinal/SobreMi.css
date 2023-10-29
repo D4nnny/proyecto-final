@@ -1,0 +1,109 @@
+
+.tituloSM {
+  
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 40px;
+    margin-left: 525px;
+    position: relative;
+    
+  }
+  
+  .descripcionSM {
+    
+    color: #1a99dd;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -10px;
+    margin-right: 700px;
+    text-align: justify;
+    position: relative;
+  
+    
+  }
+  
+  .publicacionSM {
+    
+    margin-top: 50px;
+    width: 95%;
+    padding: 16px;
+   
+    margin-right: 0px;
+    background-color: #00000000;
+    z-index: -1; /* Envía la imagen al fondo */
+    flex-direction: column;
+    white-space: pre-wrap;
+    max-width: 100%;
+    
+  }
+  
+  .descripcion2SM {
+    color: #1a99dd;
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: 200px;
+    margin-right: 100px;
+    text-align:start;
+    position: absolute;
+    
+  }
+  
+  .foto-fondoSM {
+     
+    opacity: 0.5;
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    width: 20%;
+    height: 40%;
+    margin: 0;
+    border-radius: 20px;
+    padding: 0;
+    
+    animation: aparecerDesdeAbajo 1s ease forwards;
+      opacity: 0;
+  
+  }
+  @keyframes aparecerDesdeAbajo {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Comienza la imagen 50 píxeles por debajo de su posición final */
+    }
+    100% {
+        opacity: 1; /* La imagen es completamente visible */
+        transform: translateY(0); /* La imagen se mueve a su posición final */
+    }
+  }
+  
+  
+  .titulo2SM {
+    
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-top: 500px;
+    font-size: 40px;
+    margin-left: 1270px;
+    position: absolute;
+    
+  }
+
+.foto-fondo2SM{
+    z-index: -1; /* Envía la imagen al fondo */
+    width: 99%;
+    height: 130%;
+    position: absolute;
+    margin-top: -650px;
+}
+
+.foto-publicacionSM{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    animation: aparecerDesdeAbajo 1s ease forwards;
+    opacity: 0;
+
+}

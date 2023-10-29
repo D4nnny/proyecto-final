@@ -56,6 +56,7 @@ li a:hover {
     margin-top: -600px;
     font-size: 50px;
     margin-left: 820px;
+    
   }
   .titulo2 {
     position:absolute;
@@ -65,7 +66,7 @@ li a:hover {
     font-size: 50px;
     
     margin-left: 550px;
-    
+     
   }
   
   .foto-publicacion {
@@ -77,6 +78,8 @@ li a:hover {
     margin-top: 80px;
     margin-left: 1300px;
     border: 5px solid #000000 ;
+    animation: aparecerDesdeAbajo 1s ease forwards;
+      opacity: 0;
   }
   
   .descripcion {
@@ -124,60 +127,3 @@ li a:hover {
 
 }
 
-.tituloSM {
-  
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 50px;
-  font-size: 40px;
-  margin-left: 550px;
-}
-
-.descripcionSM {
-  
-  color: #1a99dd;
-  font-size: 30px;
-  margin-left: 100px;
-  margin-top: -10px;
-  margin-right: 700px;
-  text-align: justify;
-  
-}
-
-.publicacionSM {
-  
-  margin-top: 100px;
-  width: 95%;
-  padding: 16px;
-  margin-left: px;
-  margin-right: 0px;
-  background-color: #00000000;
-  z-index: -1; /* Envía la imagen al fondo */
-  flex-direction: column;
-  white-space: pre-wrap;
-  max-width: 100%;
-  
-}
-
-.descripcion2SM {
-  color: #000000;
-  margin-right: 100px;
-  margin-top: 1px;
-  
-  
-}
-
-.foto-fondoSM {
-   
-  opacity: 0.5;
-  position: absolute;
-  top: 250px;
-  left: 1300px;
-  width: 30%;
-  height: 60%;
-  margin: 0;
-  padding: 0;
-  z-index: -1; /* Envía la imagen al fondo */
-  
-
-}
