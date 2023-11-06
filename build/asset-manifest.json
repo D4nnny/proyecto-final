@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69676a2b.css",
+    "main.js": "/static/js/main.f7d9846f.js",
+    "static/js/787.d0c3f491.chunk.js": "/static/js/787.d0c3f491.chunk.js",
+    "static/media/boton3.jpg": "/static/media/boton3.f751f6a44b57e77cbb63.jpg",
+    "static/media/boton2.jpg": "/static/media/boton2.1637152cec854d971589.jpg",
+    "static/media/FondoContacto.jpg": "/static/media/FondoContacto.4de9faa5e4fbdae0b9c9.jpg",
+    "static/media/fondoparaSM.jpg": "/static/media/fondoparaSM.caa2464ba6c1130ebe46.jpg",
+    "static/media/boton1.jpg": "/static/media/boton1.19370c5d01b16af3a0b9.jpg",
+    "static/media/FondoProyectos.jpg": "/static/media/FondoProyectos.37f9618ac10afa3bfcdd.jpg",
+    "static/media/danny2.jpg": "/static/media/danny2.cc10582a14bf20c1a73c.jpg",
+    "static/media/danny4.jpeg": "/static/media/danny4.34d073306da51f8e15ac.jpeg",
+    "static/media/pr.jpg": "/static/media/pr.1ae5cc07149071fe5eb7.jpg",
+    "static/media/danny3.jpg": "/static/media/danny3.3e99ed612abe31520eaa.jpg",
+    "static/media/Facebook.png": "/static/media/Facebook.ed9fdc375269f88fb93a.png",
+    "static/media/Github.png": "/static/media/Github.3b82e95800bf49ef18af.png",
+    "index.html": "/index.html",
+    "main.69676a2b.css.map": "/static/css/main.69676a2b.css.map",
+    "main.f7d9846f.js.map": "/static/js/main.f7d9846f.js.map",
+    "787.d0c3f491.chunk.js.map": "/static/js/787.d0c3f491.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69676a2b.css",
+    "static/js/main.f7d9846f.js"
+  ]
+}
