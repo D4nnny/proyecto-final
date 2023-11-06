@@ -1,0 +1,127 @@
+.foto-fondoP{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    margin-top: -50px;
+    z-index: -1; /* Envía la imagen al fondo */
+    position: absolute;
+}
+
+
+
+.Proyecto1{
+    
+    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/boton1.jpg");
+    background-size: cover;
+    margin-top: 350px;
+    position:absolute;
+    text-align: center;
+    height: 25%;
+    width: 20%;
+    margin-left: 100px;
+    border-radius: 15PX;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    animation: aparecerDesdeIzquierda 0.5s ease-in-out;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+
+.Proyecto1:hover {
+    transform: scale(1.1); /* Ajusta el valor según cuánto deseas que los botones se agranden al pasar el cursor sobre ellos. 1.1 representa un aumento del 10%. */
+  }
+ 
+  
+.Proyecto2{
+    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/boton2.jpg");
+    background-size: cover;
+    margin-top: 350px;
+    position:absolute;
+    text-align: center;
+    height: 25%;
+    width: 20%;
+    margin-left: 750px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15PX;
+    border: 0px;
+    animation: aparecerDesdeAbajo 1s ease-in-out;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+.Proyecto2:hover {
+    transform: scale(1.1); /* Ajusta el valor según cuánto deseas que los botones se agranden al pasar el cursor sobre ellos. 1.1 representa un aumento del 10%. */
+  }
+
+.Proyecto3{
+    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/boton3.jpg");
+    background-size: cover;
+    margin-top: 350px;
+    position:absolute;
+    text-align: center;
+    height: 25%;
+    width: 20%;
+    margin-left: 1450px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15PX;
+    border: 0px;
+    animation: aparecerDesdeDerecha 0.5s ease-in-out;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.Proyecto3:hover {
+    transform: scale(1.1); /* Ajusta el valor según cuánto deseas que los botones se agranden al pasar el cursor sobre ellos. 1.1 representa un aumento del 10%. */
+  }
+
+.descripcionP1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin-top: 630px;
+    margin-left: 90px;
+    animation: aparecerDesdeIzquierda 0.5s ease-in-out;
+}
+
+.descripcionP2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin-top: 630px;
+    margin-left: 740px;
+    animation: aparecerDesdeAbajo 1s ease forwards;
+    opacity: 0;
+    font-size: 20px;
+}
+.descripcionP3{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin-top: 630px;
+    margin-left: 1440px;
+    animation: aparecerDesdeDerecha 0.5s ease-in-out;
+    font-size: 20px;
+    
+}
+
+.TituloP{
+
+    position: absolute ;
+    color: white;
+    font-size: 100px;
+    margin-left: 700px;
+    
+}
+
+.a{
+    background-color: transparent;
+
+}
+
+

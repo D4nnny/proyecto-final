@@ -1,0 +1,53 @@
+.foto-Contacto{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    margin-top: -250px;
+    z-index: -1; /* Envía la imagen al fondo */
+    position: absolute;
+}
+
+
+.publicacion-contacto{
+    background-color: rgba(0, 0, 0, 0.769);
+    height: 500px;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    border: 4px solid rgb(52, 50, 50);
+    margin-left: 575px;
+    margin-top: 200px;
+    color: white;
+    animation: aparecerDesdeAbajo 1s ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.facebook-button{
+    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/Facebook.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+    border: 4px solid black;
+    cursor: pointer;
+    
+}
+
+.github-button{
+    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/Github.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 4px solid black;
+    cursor: pointer;
+    
+
+}
+.facebook-button:hover {
+    transform: scale(1.1); /* Ajusta el valor según cuánto deseas que los botones se agranden al pasar el cursor sobre ellos. 1.1 representa un aumento del 10%. */
+  }
+.github-button:hover {
+    transform: scale(1.1); /* Ajusta el valor según cuánto deseas que los botones se agranden al pasar el cursor sobre ellos. 1.1 representa un aumento del 10%. */
+  }

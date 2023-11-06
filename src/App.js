@@ -9,6 +9,8 @@ import fondo from "./Imagenes/pr.jpg"
 import foto2 from "./Imagenes/danny3.jpg"
 import fondo2 from "./Imagenes/fondoparaSM.jpg"
 import foto3 from "./Imagenes/danny4.jpeg"
+import fondo3 from "./Imagenes/FondoProyectos.jpg"
+import fondo4 from "./Imagenes/FondoContacto.jpg"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 function App() {
@@ -67,9 +69,9 @@ function App() {
           descripcion2SM ={
             <>
   
-            FORTALEZAS: Puntualidad, Responsabilidad, Disciplina, Aprendizaje, Competitividad
-            , Compañerismo
-            , Liderazgo
+            FORTALEZAS: Puntualidad, Responsabilidad, Disciplina, Aprendizaje, Competitividad, 
+             Compañerismo,
+             Liderazgo
             <br></br>
             <br></br>
             OPORTUNIDADES: Desarrollo de habilidades, Educación Continua, Crecimiento Profesional
@@ -93,8 +95,55 @@ function App() {
           
           
           />}/>
-          <Route path='/proyectos' element={<Proyectos/>}/>
-          <Route path='/contacto' element={<Contacto/>}/>
+          <Route path='/proyectos' element={<Proyectos
+          
+          
+          
+          
+          
+          
+          fotoFondoP = {fondo3}
+          descripcionP1 = {
+            <>
+            El vehículo de control remoto es operable desde una interfaz móvil programada en Python. Haga clic en el botón para acceder al código fuente.
+            
+            
+            
+            </>
+
+          }
+
+          descripcionP2 = {
+            <>
+            En el último semestre, colaboré en un proyecto académico que duró aproximadamente cuatro meses. Creamos un sistema de gestión integral para un hotel, abordando áreas clave como hotelería, inventario y gestión bancaria, siguiendo un enfoque empresarial. 
+            
+            
+            
+            </>
+
+          }
+          descripcionP3 = {
+            <>
+            La web se creó en WordPress, mi primera experiencia con esta herramienta. Descubrí que simplifica la creación de sitios y la implementación de tecnologías a través de plugins, enriqueciendo mis habilidades de desarrollo
+            
+            
+            
+            </>
+
+          }
+          
+          
+          
+          
+          />}/>
+          <Route path='/contacto' element={<Contacto
+          
+          fotoFondoC = {fondo4}
+          
+          
+          
+          
+          />}/>
         </Routes>
 
      </BrowserRouter>
