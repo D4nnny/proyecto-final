@@ -23,7 +23,7 @@
 }
 
 .facebook-button{
-    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/Facebook.png");
+    background-image: url("/src/Imagenes/Facebook.png");
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -35,7 +35,7 @@
 }
 
 .github-button{
-    background-image: url("C:/InstalacionDemoEstudiantes/proyecto-final/src/Imagenes/Github.png");
+    background-image: url("/src/Imagenes/Github.png");
     background-size: cover;
     width: 200px;
     height: 200px;
